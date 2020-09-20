@@ -1,15 +1,16 @@
-# go-discord-emoji-html-extractor
+# Discord Emoji Extractor
 
-A small Go tool to extract emoji from the HTML of a Discord server emoji list.
+A tiny Go tool to extract emoji from the HTML of a Discord server emoji list.
 
 This tool parses through the HTML elements in the Discord emoji tray, gathers the `:key:` names and source URLs, and downloads those emoji.
+It requires a small amount of manual work from the user in gathering the HTML from the Discord server, but the tradeoff for this is that you don't need to interact with the Discord API.
 
 ## Usage
 
-1. [Get this tool](#get-this-tool)
-2. [Get the HTML](#get-the-html)
-3. [Prep your filesystem](#prep-your-filesystem)
-4. [Make it so!](#make-it-so)
+1. [Get this tool](#1-get-this-tool)
+2. [Get the HTML](#2-get-the-html)
+3. [Prep your filesystem](#3-prep-your-filesystem)
+4. [Make it so!](#4-make-it-so)
 
 ### 1. Get this tool
 
